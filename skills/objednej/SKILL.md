@@ -16,7 +16,9 @@ Execute the full Ježek bot workflow, conversing in Czech:
    MCP and collect product URLs (`https://www.rohlik.cz/<productId>`).
 3. Present the matches (name, package size, price, URL) and confirm with the
    user; ask about ambiguous items instead of guessing.
-4. Ask whether the order is **erár** (`ano`/`ne`, per-item overrides allowed).
+4. Set **erár** to `ne` by default; use `ano` only when the user explicitly
+   marked the order (or an item) as erár. Show the value in the confirmation
+   instead of asking.
 5. Follow the `order-to-sheet` skill: append one row per item to the shared
    Google Sheet (columns: `erár?`, `Kdo objednal?`, množství, odkaz).
 6. Report back in Czech what was written.

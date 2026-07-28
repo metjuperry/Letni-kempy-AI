@@ -25,7 +25,7 @@ The sheet has four columns; append **one row per ordered item**:
 
 | Column | Header | Value |
 |--------|-----------------|-------|
-| 1 | `erár?` | `ano` or `ne` — whether the item is paid from shared camp funds. Ask the user once per order (allow per-item overrides). |
+| 1 | `erár?` | `ano` or `ne` — whether the item is paid from shared camp funds. Defaults to `ne`; write `ano` only when the user explicitly said the order or item is erár. |
 | 2 | `Kdo objednal?` | The `nickname` from the config, verbatim. |
 | 3 | množství | The quantity as a plain number (e.g. `2`). |
 | 4 | odkaz | The Rohlík product URL from the `rohlik-search` skill (`https://www.rohlik.cz/<productId>`). |
@@ -45,8 +45,9 @@ The sheet has four columns; append **one row per ordered item**:
 
 ## Before writing
 
-Only write rows the user has explicitly confirmed (items, quantities, and the
-`erár?` answer). If anything is unconfirmed, ask first.
+Only write rows the user has explicitly confirmed (items and quantities).
+Include the `erár?` value in the confirmation summary (default `ne`) so the
+user can correct it before writing.
 
 ## If no Sheets-capable MCP is connected
 

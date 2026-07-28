@@ -24,9 +24,10 @@ submit_checkout, reserve_timeslot, etc.), even if available.
 3. **Confirm with the user.** Present the matches (name, package size, price,
    URL) in a short list. Ask about anything ambiguous. Wait for confirmation
    before writing anything.
-4. **Determine `erár?`.** Ask once per order whether it is "erár" (paid from
-   shared/camp funds): answer `ano` or `ne`. Allow per-item overrides if the
-   user distinguishes.
+4. **Determine `erár?`.** Default is `ne`. Only use `ano` when the user
+   explicitly says the order (or a specific item) is "erár" (paid from
+   shared/camp funds). Do not ask about it — just mention the value in the
+   confirmation summary so the user can correct it.
 5. **Write to the sheet.** Follow the `order-to-sheet` skill to append one row
    per item to the shared Google Sheet.
 6. **Report back** in Czech: which rows were added, with product names and

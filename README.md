@@ -49,9 +49,10 @@ V Claude Code CLI:
 
 nebo prostě napiš: *„Ježku, objednej mi 2 mléka a máslo, je to erár."*
 
-Bot vždy ukáže, co na Rohlíku našel, zeptá se na nejasnosti a na „erár?",
-a do tabulky zapíše až po tvém potvrzení. Nikdy nemaže ani nepřepisuje
-existující řádky.
+Bot vždy ukáže, co na Rohlíku našel, zeptá se na nejasnosti a do tabulky
+zapíše až po tvém potvrzení. Sloupec „erár?" je standardně `ne` — `ano`
+zapíše jen, když to u objednávky výslovně řekneš. Nikdy nemaže ani
+nepřepisuje existující řádky.
 
 ---
 
