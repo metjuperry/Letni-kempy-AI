@@ -1,0 +1,12 @@
+{
+  "name": "jezek-bot",
+  "displayName": "Ježek Bot",
+  "version": "0.1.0",
+  "description": "Objednávkový bot: najde zboží na Rohlíku a zapíše objednávky do sdílené Google tabulky.",
+  "author": {
+    "name": "Matej Samler",
+    "email": "matej.samler@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["rohlik", "orders", "google-sheets", "letni-kempy"]
+}

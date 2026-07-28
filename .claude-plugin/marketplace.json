@@ -1,0 +1,16 @@
+{
+  "name": "letni-kempy",
+  "owner": {
+    "name": "Matej Samler",
+    "email": "matej.samler@gmail.com"
+  },
+  "description": "Letní kempy AI tools",
+  "plugins": [
+    {
+      "name": "jezek-bot",
+      "source": "./",
+      "description": "Rohlík ordering bot that writes orders into a shared Google Sheet",
+      "tags": ["rohlik", "orders", "google-sheets"]
+    }
+  ]
+}

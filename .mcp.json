@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rohlik": {
+      "type": "http",
+      "url": "https://mcp.rohlik.cz/mcp"
+    }
+  }
+}
