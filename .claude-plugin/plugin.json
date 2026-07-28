@@ -7,6 +7,7 @@
     "name": "Matej Samler",
     "email": "matej.samler@gmail.com"
   },
+  "repository": "https://github.com/metjuperry/Letni-kempy-AI",
   "license": "MIT",
   "keywords": ["rohlik", "orders", "google-sheets", "letni-kempy"]
 }

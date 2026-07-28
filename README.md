@@ -24,7 +24,7 @@ Formát tabulky (jeden řádek = jedna položka):
 V Claude Code CLI:
 
 ```
-/plugin marketplace add <owner>/LetniKempyAIPlugin
+/plugin marketplace add metjuperry/Letni-kempy-AI
 /plugin install jezek-bot@letni-kempy
 ```
 
@@ -63,7 +63,7 @@ bundled official Rohlík MCP server, confirms the matched products with the
 user, and appends one row per item (`erár?` = shared funds yes/no, orderer's
 nickname, quantity, product URL). It never places real orders.
 
-Install: `/plugin marketplace add <owner>/LetniKempyAIPlugin`, then
+Install: `/plugin marketplace add metjuperry/Letni-kempy-AI`, then
 `/plugin install jezek-bot@letni-kempy`. Authenticate the `rohlik` MCP via
 `/mcp` (OAuth), connect a Google Sheets-capable connector, and run
 `/jezek-bot:setup`.
